@@ -1,0 +1,144 @@
+/* My CSS is NOT popoulating at all. At first, I saw changes on the live page. I then preoviewdthe HW 18 beginning code, copied some parts of that code to this one, and made iterations to the CSS. After doing that, the changes no longer aligned with the html code. */
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 15px;
+  }
+
+  h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 42px;
+  }
+  
+  p {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .inline-block {
+    display: inline-block; 
+    vertical-align: top;
+  }
+
+  nav {
+    width: 73%;
+    padding: 1%;
+  }
+  
+  header {
+    display: flex;
+    padding: 15px;
+    background-color: #000000;
+  }
+  
+  header ul {
+    float: right;
+    color: #EAE4D0;
+  }
+
+  header li {
+    display: inline-block;
+    padding: 0px 5px;
+  }
+
+  .logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+  }
+
+  .logo img {
+    height: 50px;
+    margin-right: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+  }
+  
+  nav li {
+    margin-right: 2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  
+  .heroImg {
+    background-image: url(caricature.png);
+    padding: 25px;
+    height: 600px;
+    display: flex;
+    
+  }
+  
+  .content {
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  #Welcome {
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
+  
+  
+  footer {
+    background-color: #000000;
+    padding: 5px;
+    color: #EAE4D0;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+  }
+
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+  }
+
+  footer h1 {
+    font-size: 42px;
+    margin-bottom: 1rem;
+    color: #EAE4D0;
+    text-align: left;
+  }
+  
+  footer p {
+    margin-bottom: 24px;
+    color: #EAE4D0;
+    text-align: right;
+  }
+  
+  .contactInfo {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contactInfo li {
+    margin-bottom: 10px;
+  }
+  
+  /* The button is for the LinkedIn icon I have in my HW 16 Wireframe. */
+  button {
+    background-color: #EAE4D0;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #70664A;
+  }
+ 
